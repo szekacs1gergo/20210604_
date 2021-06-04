@@ -56,6 +56,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -64,7 +65,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(67, 180);
+            this.button1.Location = new System.Drawing.Point(67, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 0;
@@ -88,6 +89,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox3);
             this.groupBox1.Controls.Add(this.checkBox2);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Location = new System.Drawing.Point(352, 38);
@@ -101,7 +103,7 @@
             // 
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Location = new System.Drawing.Point(352, 166);
+            this.groupBox2.Location = new System.Drawing.Point(352, 181);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 100);
             this.groupBox2.TabIndex = 4;
@@ -130,9 +132,9 @@
             // 
             // hScrollBar1
             // 
-            this.hScrollBar1.Location = new System.Drawing.Point(0, 461);
+            this.hScrollBar1.Location = new System.Drawing.Point(9, 461);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(796, 17);
+            this.hScrollBar1.Size = new System.Drawing.Size(787, 17);
             this.hScrollBar1.TabIndex = 5;
             // 
             // maskedTextBox1
@@ -198,7 +200,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(105, 435);
+            this.progressBar1.Location = new System.Drawing.Point(127, 435);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(574, 23);
             this.progressBar1.TabIndex = 10;
@@ -244,8 +246,18 @@
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(796, 24);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 454);
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 437);
             this.vScrollBar1.TabIndex = 13;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(14, 70);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -309,6 +321,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.CheckBox checkBox3;
     }
 }
 
